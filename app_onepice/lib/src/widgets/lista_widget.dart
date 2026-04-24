@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';//Cupertino se relaciona con la ejemplificación de los iconos en flutter 
 import 'package:flutter/material.dart'; 
-import "../pages/datail_page.dart"; //Esta libreria se importa con el fin de abordar los elementos de los paquetes de flutter y dart
+import "/src/pages/datail_page.dart"; //Esta libreria se importa con el fin de abordar los elementos de los paquetes de flutter
 class Listapersonajes extends StatefulWidget {
   const Listapersonajes({super.key});
 
@@ -52,6 +52,7 @@ class _ListapersonajesState extends State<Listapersonajes> {
           bloquePersonajes("Portgas D. Ace", 0xffFFCB28, "o3"),
           bloquePersonajes("Boa Hancock", 0xffFE4649, "o4"),
           bloquePersonajes("Boa Hancock", 0xffDF1C6A, "o5"),
+          bloquePersonajes("Roronoa Zoro", 0xff21E295, "o6"),
           bloquePersonajes("Roronoa Zoro", 0xff21E295, "o6"),
         ],
       ),
