@@ -53,7 +53,7 @@ class _ListapersonajesState extends State<Listapersonajes> {
           bloquePersonajes("Boa Hancock", 0xffFE4649, "o4"),
           bloquePersonajes("Boa Hancock", 0xffDF1C6A, "o5"),
           bloquePersonajes("Roronoa Zoro", 0xff21E295, "o6"),
-          bloquePersonajes("Roronoa Zoro", 0xff21E295, "o6"),
+          bloquePersonajes("Zoro", 0xff21E295, "o6"),//nuevo personaje
         ],
       ),
     );
